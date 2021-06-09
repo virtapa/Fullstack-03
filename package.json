@@ -8,6 +8,7 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "proxy": "http://localhost:3001",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/virtapa/Fullstack-03.git"
@@ -20,7 +21,10 @@
   "homepage": "https://github.com/virtapa/Fullstack-03#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
